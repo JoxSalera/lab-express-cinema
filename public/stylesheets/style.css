@@ -4,5 +4,38 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
+}
+
+.home-page {
+  color: white;
+  font-size: 2.7rem;
+  margin-left: 950px;
+}
+
+.home-background {
+  background-image: url("/images/cinema.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.home-btn {
+  font-size: 1.5rem;
+  padding: 1rem;
+  background-color: white;
+  border: 1px black solid;
+  width: 10rem;
+  border-radius: 2rem;
+  text-decoration: none;
+}
+
+.movies-box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
